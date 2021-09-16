@@ -1,0 +1,15 @@
+
+html{
+    background-color: rgb(39, 39, 39);
+}
+
+h2{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.fa-microphone, .fa-microphone-slash{
+    font-size: 80px;
+    color: white;
+    cursor: pointer;
+}
