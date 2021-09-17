@@ -1,6 +1,23 @@
+.container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-html{
+.son{
+    height: 600px;
+    width: 400px;
+    border: 2px solid yellow;
     background-color: rgb(39, 39, 39);
+}
+.son:hover{
+    box-shadow: rgb(255, 255, 20) 0px 2px 4px, rgb(233, 233, 2) 0px 7px 13px -3px, rgb(233, 233, 0) 0px -3px 0px inset;
+}
+html{
+    background-color: rgb(116, 116, 116);
+    font-family: 'Roboto Mono', monospace;
+    overflow: hidden;
 }
 
 h2{
@@ -9,7 +26,30 @@ h2{
 }
 
 .fa-microphone, .fa-microphone-slash{
-    font-size: 80px;
+    font-size: 60px;
     color: white;
     cursor: pointer;
+}
+.fa-microphone, .fa-microphone-slash:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    
+}
+.fa-microphone, .fa-microphone-slash:focus{
+    color: rgb(143, 195, 255);
+}
+
+/* output  */
+.out{
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    width: 300px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
 }
